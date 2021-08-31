@@ -86,7 +86,9 @@ export function handleGraphQLWS(
   useGraphQLWSServer(
     {
       ...cleanObject(options),
+      //@ts-expect-error
       execute,
+      //@ts-expect-error
       subscribe,
       async onSubscribe({ connectionParams, extra: { request, socket } }, { payload: { operationName, query, variables } }) {
         const contextArgsData = {

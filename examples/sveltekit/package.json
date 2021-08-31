@@ -20,7 +20,7 @@
     "@graphql-tools/schema": "^8.2.0",
     "@sveltejs/adapter-node": "^1.0.0-next.43",
     "altair-static-slim": "4.0.9",
-    "graphql": "16.0.0-rc.2",
+    "graphql": "16.0.0-rc.2.experimental-stream-defer.3",
     "graphql-ez": "workspace:^0.12.7"
   },
   "devDependencies": {

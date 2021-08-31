@@ -35,7 +35,7 @@
     "@types/node": "^16.7.10",
     "@vercel/node": "^1.12.1",
     "bob-esbuild-cli": "^1.0.1",
-    "graphql": "16.0.0-rc.2",
+    "graphql": "16.0.0-rc.2.experimental-stream-defer.3",
     "graphql-ez": "workspace:^0.12.7"
   },
   "peerDependencies": {

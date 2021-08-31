@@ -56,7 +56,9 @@ export const ezSSE = (options: GraphQLSSEOptions = {}): EZPlugin => {
 
       const handler = createHandler({
         ...options,
+        //@ts-expect-error
         execute,
+        //@ts-expect-error
         subscribe,
         validate: validate as HandlerOptions['validate'],
         async onSubscribe(req, _res, params) {
@@ -74,7 +76,7 @@ export const ezSSE = (options: GraphQLSSEOptions = {}): EZPlugin => {
           };
         },
       });
-
+      test;
       ctx.sse.handler = handler;
     },
     compatibilityList: ['fastify', 'express', 'http', 'hapi', 'koa'],
