@@ -71,7 +71,7 @@
   "pnpm": {
     "overrides": {
       "node-fetch": "^2.6.1",
-      "graphql": "16.0.0-rc.1",
+      "graphql": "16.0.0-rc.2",
       "esbuild": ">=0.12.24",
       "@types/node": ">=16",
       "typescript": ">=4.4.2"

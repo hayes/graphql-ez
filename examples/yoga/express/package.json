@@ -9,9 +9,9 @@
     "dev:mjs": "tsup --watch src --onSuccess \"node dist/index.mjs\""
   },
   "dependencies": {
-    "graphql": "15.4.0-experimental-stream-defer.1",
-    "graphql-ez": "workspace:^0.12.7",
-    "@graphql-yoga/express": "workspace:^1.0.1"
+    "@graphql-yoga/express": "workspace:^1.0.1",
+    "graphql": "16.0.0-rc.2",
+    "graphql-ez": "workspace:^0.12.7"
   },
   "devDependencies": {
     "tsup": "^4.14.0"
